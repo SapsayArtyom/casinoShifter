@@ -1,0 +1,20 @@
+{
+    "extends": "stylelint-config-standard-scss",
+    "plugins": ["stylelint-scss"],
+    "overrides": [
+        {
+            "files": ["*.scss", "**/*.scss"],
+            "customSyntax": "postcss-scss"
+        },
+        {
+            "files": ["components/**/*.css", "pages/**/*.css"],
+            "rules": {
+                "alpha-value-notation": "percentage"
+            }
+        }
+    ],
+    "rules": {
+        "selector-class-pattern": null,
+        "indentation": [4]
+    }
+}

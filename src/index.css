@@ -1,0 +1,27 @@
+/* stylelint-disable no-invalid-position-at-import-rule */
+/* stylelint-disable scss/at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap';
+
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    background-image: linear-gradient(to bottom, #08070A, #271E4E);
+}
+
+body, h1, h2, a, p, span, button, label {
+    /* font-family: Poppins; */
+    font-family: Rajdhani;
+    font-weight: 600;
+    color: black;
+}
+
+.layout {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}

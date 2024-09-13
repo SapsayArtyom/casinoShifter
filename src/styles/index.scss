@@ -1,0 +1,11 @@
+@import "reset";
+
+.app {
+    min-height: 100vh;
+    display: flex;
+}
+
+h3 {
+    color: red;
+    font-size: 36px !important;
+}

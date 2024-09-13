@@ -1,0 +1,44 @@
+.Button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+.primary:hover {
+    background: #4066ff;
+}
+
+.primary:disabled {
+    background: #a3a8bb;
+}
+
+.clear {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.primary {
+    background: #2B55FF;
+}
+
+.secondary {
+    background: #2B55FF4D;
+    border: 2px solid #1e3592;
+}
+
+.inactive {
+    background: #1A1F39;
+    border: 2px solid #242D52;
+}
+
+.active {
+    background: #2B55FF;
+}
